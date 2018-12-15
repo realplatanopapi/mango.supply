@@ -81,6 +81,8 @@ renderer.domElement.addEventListener('touchstart', function (event) {
 })
 
 renderer.domElement.addEventListener('touchmove', function (event) {
+  event.preventDefault()
+
   Array.from(event.changedTouches).forEach(touch => {
     const touchId = touch.identifier
     const prevTouch = touchesById[touchId]

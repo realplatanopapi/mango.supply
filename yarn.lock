@@ -9,7 +9,7 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/core@^7.0.0":
+"@babel/core@^7.0.0", "@babel/core@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.2.0.tgz#a4dd3814901998e93340f0086e9867fefa163ada"
   integrity sha512-7pvAdC4B+iKjFFp9Ztj0QgBndJ++qaMeonT185wAqUnhipw8idm9Rv1UMyBuKtYjfl6ORNkgEgcsYLfHX/GpLw==
@@ -542,7 +542,7 @@
     "@babel/helper-regex" "^7.0.0"
     regexpu-core "^4.1.3"
 
-"@babel/preset-env@^7.0.0":
+"@babel/preset-env@^7.0.0", "@babel/preset-env@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.2.0.tgz#a5030e7e4306af5a295dd5d7c78dc5464af3fee2"
   integrity sha512-haGR38j5vOGVeBatrQPr3l0xHbs14505DcM57cbJy48kgMFvvHHoYEhHuRV+7vi559yyAUAVbTWzbK/B/pzJng==
